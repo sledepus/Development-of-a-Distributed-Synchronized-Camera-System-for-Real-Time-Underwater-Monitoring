@@ -1,0 +1,2 @@
+# KiCAD projects for power board and sensor board
+BOM for boards are found in their respective folder. PCBs were ordered from JLCPCB, with the power board requiring a specific stackup which can be found in "Specifications for JLCPCB.txt". The sensor board could be ordered with the normal stackup.

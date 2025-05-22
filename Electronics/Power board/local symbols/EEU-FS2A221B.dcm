@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEU-FS2A221B
+D Aluminium Electrolytic Capacitor, Radial Lead,220 (F),100V,12.5X25
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1255.pdf
+$ENDCMP
+#
+#End Doc Library

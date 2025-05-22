@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PSMN040-100MSEX
+D Trans MOSFET N-CH 100V 30A 8-Pin LFPAK EP T/R
+K
+F https://assets.nexperia.com/documents/data-sheet/PSMN040-100MSE.pdf
+$ENDCMP
+#
+#End Doc Library

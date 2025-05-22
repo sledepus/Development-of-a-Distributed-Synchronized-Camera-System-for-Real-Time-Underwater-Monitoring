@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEV-FK2A221M
+D Ecap 220uF 100V K16 case Panasonic Aluminium Electrolytic Capacitor 220uF 100 V dc 18mm Surface Mount series FK SMD lifetime 5000h
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 20SVPA10M
+D Cap Aluminum Polymer 10uF 20VDC 20% (5 X 5.9mm) SMD 0.04 Ohm 1700mA 2000h 105C T/R
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C185.pdf
+$ENDCMP
+#
+#End Doc Library

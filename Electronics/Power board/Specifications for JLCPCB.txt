@@ -1,0 +1,5 @@
+4 layer board
+1.6mm PCB thickness
+ENIG surface finish
+Epoxy Filled & Capped vias
+JLC04161H-7628 stackup

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sensor Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Live Sensor Data</h2>
+        <p>Temperature: <span id="temperature">0</span></p>
+        <p>Humidity: <span id="humidity">0</span></p>
+        <p>X Accel: <span id="x_accel">0</span></p>
+        <p>Y Accel: <span id="y_accel">0</span></p>
+        <p>Z Accel: <span id="z_accel">0</span></p>
+        <p>Roll: <span id="roll">0</span></p>
+        <p>Pitch: <span id="pitch">0</span></p>
+    </div>
+
+    <script>
+        // The page is served from :8000 but the API lives at :8080.
+        // Build the base URL dynamically so it works from any host.
+        const apiBase = `${location.protocol}//${location.hostname}:8080`;
+
+        function updateValues() {
+            fetch(`${apiBase}/sensor_values`, { cache: "no-cache" })
+                .then((r) => r.json())
+                .then((d) => {
+                    temperature.textContent = `${d.temperature.toFixed(1)}°C`;
+                    humidity.textContent    = `${d.humidity.toFixed(1)}%`;
+                    x_accel.textContent     = `${d.x_accel.toFixed(3)} g`;
+                    y_accel.textContent     = `${d.y_accel.toFixed(3)} g`;
+                    z_accel.textContent     = `${d.z_accel.toFixed(3)} g`;
+                    roll.textContent        = `${d.roll.toFixed(2)}°`;
+                    pitch.textContent       = `${d.pitch.toFixed(2)}°`;
+                })
+                .catch((err) => console.error("Sensor fetch failed:", err));
+        }
+
+        updateValues();              // first reading right away
+        setInterval(updateValues, 2000); // then every 2 seconds
+    </script>
+</body>
+</html>
+

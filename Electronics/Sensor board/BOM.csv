@@ -1,0 +1,8 @@
+Reference,Value,Datasheet,Footprint,Qty,Part number
+"C1, C3",100nF,~,Capacitor_SMD:C_1206_3216Metric,1,VJ1206Y104KXQCW1BC
+C2,1uF,~,Capacitor_SMD:C_1206_3216Metric,2,1206ZC105KAT2A
+C3,10uF,~,Capacitor_SMD:C_1206_3216Metric,1,CL31B106KPHNNNE
+IC1,ADXL345BCCZ,http://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf,KiCad:LSM6DS3USTR,1,ADXL345BCCZ
+"J1,J2",4328,,Library:ADAFRUIT_4328,2,485-4328 
+"R1,R2,R3,R4",2.2k,~,Resistor_SMD:R_1206_3216Metric,4,CRCW12062K20FKEAC
+U1,SHTC3,https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf,Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm,1,SHTC3 

@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7e258297-c980-4d71-a7f3-fe03ed97bcb3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 156.21 29.21)
+		(size 113.03 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a4ad4b8-1eac-42c2-9ddb-85c70bf5fe00")
+		(property "Sheetname" "Power"
+			(at 156.21 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 156.21 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 156.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PoE_board_4layer"
+				(path "/7e258297-c980-4d71-a7f3-fe03ed97bcb3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 29.21)
+		(size 92.71 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e06c7fa9-9140-4dde-878c-45c8369bdd91")
+		(property "Sheetname" "Input"
+			(at 33.02 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input.kicad_sch"
+			(at 33.02 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PoE_board_4layer"
+				(path "/7e258297-c980-4d71-a7f3-fe03ed97bcb3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

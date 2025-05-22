@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1935187
+#/12686130/1604276/2.50/4/2/Connector
+DEF 1935187 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1935187" 650 200 50 H V L CNN
+F2 "1935187" 650 100 50 H I L CNN
+F3 "http://www.phoenixcontact.com/us/products/1935187/pdf" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks PT 1.5/4-5.0-H" 650 -100 50 H I L CNN "Description"
+F5 "11.55" 650 -200 50 H I L CNN "Height"
+F6 "651-1935187" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935187?qs=W3wJikR1%252BS5tIYApIw6HoQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Phoenix Contact" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1935187" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

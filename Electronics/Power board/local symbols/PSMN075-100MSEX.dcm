@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PSMN075-100MSEX
+D MOSFET PSMN075-100MSE/MLFPAK/REEL 7
+K
+F https://assets.nexperia.com/documents/data-sheet/PSMN075-100MSE.pdf
+$ENDCMP
+#
+#End Doc Library
